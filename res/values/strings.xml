@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Assistant2</string>
+    <string name="sms_search">SMS Message Search</string>
+    <string name="best_friends">Who is your best friends?</string>
+    <string name="reset">Reset</string>
+    <string name="search">Search</string>
+    <string name="search_result">Search Result</string>
+    <string name="kw_empty">Keyword is empty!</string>
+    <string name="sent">Sent:</string>
+    <string name="received">Received:</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_confirm">Are you sure to delete all selected messages?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirm</string>
+    <string name="incoming_call_num">Number of incoming calls:</string>
+    <string name="outgoing_call_num">Number of outgoing calls:</string>
+    <string name="missed_call_num">Number of missed calls:</string>
+    <string name="incoming_duration">Incoming calls duration:</string>
+    <string name="outgoing_duration">Outgoing calls duration:</string>
+    <string name="message_sent_num">Number of received SMS messages:</string>
+    <string name="message_received_num">Number of sent SMS messages:</string>
+    <string name="minute">minutes</string>
+    <string name="second">seconds</string>
+    <string name="detail_info">Detail information</string>
+    <string name="close">Close</string>
+
+</resources>

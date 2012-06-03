@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="80dip" >
+
+        <EditText
+            android:id="@+id/v_query"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="8" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/bt_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_marginBottom="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/speaker" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_reset"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:text="@string/reset" android:textSize="18dip"/>
+
+        <Button
+            android:id="@+id/bt_search"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:text="@string/search" android:textSize="18dip"/>
+    </LinearLayout>
+
+</LinearLayout>

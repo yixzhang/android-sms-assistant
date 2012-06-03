@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安卓助手</string>
+    <string name="sms_search">短信搜索</string>
+    <string name="best_friends">谁是你最亲密的人？</string>
+    <string name="reset">重置</string>
+    <string name="search">搜索</string>
+    <string name="search_result">搜索结果</string>
+    <string name="kw_empty">关键词不能为空</string>
+    <string name="sent">发送:</string>
+    <string name="received">接收:</string>
+    <string name="delete">删除</string>
+    <string name="delete_all">全部删除</string>
+    <string name="delete_confirm">您确定删除所选的所有短信吗?</string>
+    <string name="yes">是</string>
+    <string name="no">不是</string>
+    <string name="spam_message_cleaner">清除垃圾短息</string>
+    <string name="confirm">确认</string>
+    <string name="incoming_call_num">来电次数:</string>
+    <string name="outgoing_call_num">呼叫次数:</string>
+    <string name="missed_call_num">未接来电数:</string>
+    <string name="incoming_duration">来电总长:</string>
+    <string name="outgoing_duration">呼叫总长:</string>
+    <string name="message_sent_num">发送短信数:</string>
+    <string name="message_received_num">接收短信数:</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+        <string name="detail_info">详细信息</string>
+    <string name="close">关闭</string>
+
+</resources>
