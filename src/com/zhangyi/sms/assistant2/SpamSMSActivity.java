@@ -160,8 +160,24 @@ public class SpamSMSActivity extends Activity{
 	}
 	
 	private void deleteAllMessages(List<Map<String, String>> list){
+		StringBuilder sb = new StringBuilder();
+		sb.append(SMS.ID).append(" IN (");
+		int i = 0;
+		for(Map<String, String> m : list){
+			if(m == null)
+				continue;
+			String id = m.get(ID);
+			if(id == null || id.length() <= 0)
+				continue;
+			
+			if(i != 0){sb.append(",");}
+			
+			sb.append(id);
+			i++;
+		}
+		sb.append(")");
 		getContentResolver().delete(Uri.parse(SMS.ALL_CONTENT_URI), 
-				null, null);
+				sb.toString(), null);
 		list.clear();
 		((SimpleAdapter)listView.getAdapter()).notifyDataSetChanged();
 	}
